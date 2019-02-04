@@ -4,7 +4,7 @@ pipeline {
     stage('Clone') {
       steps {
         echo 'Building..'
-        sh 'git clone https://github.com/Venkat1107/Test-maven.git'
+        //sh 'git clone https://github.com/Venkat1107/Test-maven.git'
       }
     }
     stage('Unit Test') {
